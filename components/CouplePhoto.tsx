@@ -41,7 +41,7 @@ export default function CouplePhoto() {
                   {/* Fotografía */}
                   <div className="relative flex aspect-[16/10] w-full items-center justify-center overflow-hidden rounded-[0.9rem] bg-[#f5f0df]">
                     <Image
-                      src={photo}
+                      src={`/fercita-flores${photo}`}
                       alt="Yerko y Fernanda"
                       fill
                       sizes="(max-width: 640px) 100vw, 768px"
