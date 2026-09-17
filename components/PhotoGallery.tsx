@@ -45,7 +45,7 @@ export default function PhotoGallery({ photos }: PhotoGalleryProps) {
                   {/* Fotografía */}
                   <div className="relative aspect-square overflow-hidden bg-[#f5f0df]">
                     <Image
-                      src={photo}
+                      src={`/fercita-flores${photo}`}
                       alt={`Baal, recuerdo ${index + 1}`}
                       fill
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
